@@ -24,6 +24,12 @@
     display: inline-block;
 }
 
+.qwa2 {
+    display: block;
+    border: 10px yellow solid;
+    margin: 10px 0;
+}
+
 .kwadrat1{
     background: red;
 }
