@@ -17,3 +17,25 @@
 .aboutUs {
     background: grey;
 }
+
+.qwa {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+.kwadrat1{
+    background: red;
+}
+
+.kwadrat2{
+    background: blue;
+}
+
+.kwadrat3{
+    background: green;
+}
+
+.kwadrat4{
+    background: pink;
+}
