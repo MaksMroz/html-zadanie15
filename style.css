@@ -45,3 +45,10 @@
 .kwadrat4{
     background: pink;
 }
+
+.send {
+    width: 150px;
+    color: white;
+    background: black;
+    margin-top: 20px;
+}

@@ -9,27 +9,40 @@
 </head>
 <body>
     <nav>
-        <a class="red" href="#">About us</a>
-        <a class="blue" href="#">Skills</a>
-        <a class="green" href="#">Portfolio</a>
-        <a class="pink" href="#">Contact</a>
+        <a class="red" href="#aboutUs">About us</a>
+        <a class="blue" href="#skills">Skills</a>
+        <a class="green" href="#portfolio">Portfolio</a>
+        <a class="pink" href="#contact">Contact</a>
     </nav>
-    <section class="aboutUs">
+    <section id="aboutUs" class="aboutUs">
         <h1>About us</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet qui autem corrupti corporis quas blanditiis exercitationem cum, quo ab modi nobis quia? Minus quisquam sit, dolorum aut esse quia libero.</p>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
         <h1>Skills</h1>
         <div class="qwa kwadrat1"></div>
         <div class="qwa kwadrat2"></div>
         <div class="qwa kwadrat3"></div>
         <div class="qwa kwadrat4"></div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <h1>Portfolio</h1>
         <div class="qwa qwa2 kwadrat1"></div>
         <div class="qwa qwa2 kwadrat2"></div>
         <div class="qwa qwa2 kwadrat3"></div>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Maksymilian Mróz</h1>
+        <address>
+            <p>nr tel 882153061</p>
+            <p>adress mail: mrozmaksymilian@gmail.com</p>
+        </address>
+        <form>
+            Imię: <input type="text" required>
+            Temat: <input type="text" required>
+            Wiadomość: <input type="text" required>
+        </form>
+        <input type="submit" value="Wyślij" class="send">
     </section>
 </body>
 </html>
